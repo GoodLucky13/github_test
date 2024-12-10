@@ -1,0 +1,48 @@
+h1 {
+    padding: 0.25em 0.5em;
+    /*上下 左右の余白*/
+    color: #494949;
+    /*文字色*/
+    background: transparent;
+    /*背景透明に*/
+    border-left: solid 5px #7db4e6;
+    /*左線*/
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.25em 0.5em;
+    /*上下 左右の余白*/
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: #000;
+    background-color: #d0fcfc67;
+    border-bottom: 5px solid #a7fdfd67;
+    border-radius: 0.5rem;
+}
+
+.btn:hover {
+    margin-top: 3px;
+    color: #000;
+    background: #d0fcfc67;
+    border-bottom: 2px solid #a7fdfd67;
+}
