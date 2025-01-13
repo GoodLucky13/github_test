@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>トップページ</title>
     <script src="App.js"></script>
-    <link rel="stylesheet" href="Style.css"/>
+    <link rel="stylesheet" href="Style.css" />
 </head>
+
 <body>
+    <h2 id="title">AWSサービス一覧</h2>
     <div id="services-container">
-        <h2>AWSサービス一覧</h2>
-        <table>
-            <tr>
-                <th>サービス名</th>
-            </tr>
-            <tr>
-                <td><a href="EC2.html">EC2</a></td>
-            </tr>
-            <tr>
-                <td><a href="S3.html">S3</a></td>
-            </tr>
-            <!-- 他のサービスも追加可能 -->
+        <table style="font-size: 30px">
+            <tr><td><a href="services/EC2.html">EC2</a></td></tr>
+            <tr><td><a href="services/S3.html">S3</a></td></tr>
+            <tr><td><a href="services/ELB.html">ELB</a></td></tr>
+            <tr><td><a href="services/IAM.html">IAM</a></td></tr>
+            <tr><td><a href="services/Artifact.html">Artifact</a></td></tr>
+            <tr><td><a href="services/KMS.html">KMS</a></td></tr>
+            <tr><td><a href="services/EC2.html">EC2</a></td></tr>
+            <tr><td><a href="services/S3.html">S3</a></td></tr>
+            <tr><td><a href="services/ELB.html">ELB</a></td></tr>
+            <tr><td><a href="services/IAM.html">IAM</a></td></tr>
+            <tr><td><a href="services/Artifact.html">Artifact</a></td></tr>
+            <tr><td><a href="services/KMS.html">KMS</a></td></tr>
+            <tr><td><a href="services/KMS.html">KMS</a></td></tr>
+            <tr><td><a href="services/KMS.html">KMS</a></td></tr>
+            <tr><td><a href="services/KMS.html">KMS</a></td></tr>
+            <tr><td><a href="services/KMS.html">KMS</a></td></tr>
+            <tr><td><a href="services/KMS.html">KMS</a></td></tr>
+            <tr><td><a href="services/KMS.html">KMS</a></td></tr>
+            <tr><td><a href="services/KMS.html">KMS</a></td></tr>
+
         </table>
     </div>
     <div id="details-container" style="display:none;">
@@ -29,4 +41,5 @@
         <button onclick="goBack()">戻る</button>
     </div>
 </body>
+
 </html>
