@@ -1,8 +1,8 @@
 #title{
-    background-color: cadetblue;
     position: fixed;
-    top: 10px;
+    top: 100px;
     display: block;
+    font-size: 50px;
 }
 
 body {
@@ -19,9 +19,10 @@ body {
 
 #login-container, #services-container, #details-container {
     background-color: #fff;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 30px;
 }
 
 h2 {
